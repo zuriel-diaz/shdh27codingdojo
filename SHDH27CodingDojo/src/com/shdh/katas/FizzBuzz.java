@@ -6,10 +6,11 @@ public class FizzBuzz {
 	
 	public String fizzBuzz(int i) {
 		if ( i % 3 == 0 && i % 5 == 0 ) result = "FizzBuzz";
-		else if ( i % 3 == 0 ) result = "Fizzx";
-		else if ( i % 5 == 0 ) result = "Buzzx";
+		else if ( i % 3 == 0 ) result = "Fizz";
+		else if ( i % 5 == 0 ) result = "Buzz";
 		return result;
 	}
+	
 
 	public void show(){
 		for ( int i = 1; i < 100; i++ ){

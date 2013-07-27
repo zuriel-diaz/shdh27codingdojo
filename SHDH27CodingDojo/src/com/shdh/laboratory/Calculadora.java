@@ -1,4 +1,4 @@
-package com.shdh.tddlaboratory;
+package com.shdh.laboratory;
 
 public class Calculadora {
 
@@ -6,7 +6,7 @@ public class Calculadora {
 	
 	// El numero regresado es un no. negativo [ failure ]
 	public int multiplicar(int a, int b){
-		return -1*b;
+		return a*b;
 	}
 	
 	public int sumar(int i, int j) {

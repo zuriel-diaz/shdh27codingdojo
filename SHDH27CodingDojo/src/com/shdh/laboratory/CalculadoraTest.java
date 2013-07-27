@@ -1,4 +1,4 @@
-package com.shdh.tddlaboratory;
+package com.shdh.laboratory;
 
 import static org.junit.Assert.*;
 
@@ -22,9 +22,9 @@ public class CalculadoraTest {
 		assertTrue("Debe ser mayor a 0", calculadora.multiplicar(2,4) >= 0);
 	}
 	
-	@Test(timeout=2000)
+	@Test(timeout=3000)
 	public void showNumbers(){
-		assertTrue("Debe mostrar todos los numeros desde 0 hasta n",calculadora.show(100000000));
+		assertTrue("Debe mostrar todos los numeros desde 0 hasta n en 3s max.",calculadora.show(1000));
 	}
 	
 }

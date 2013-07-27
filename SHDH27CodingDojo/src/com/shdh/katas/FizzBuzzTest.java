@@ -21,8 +21,8 @@ public class FizzBuzzTest {
 		assertEquals("Debe mostrar Buzz", "Buzz", fizzBuzz.fizzBuzz(5));
 	}
 	
-	// Debe mostrar todo en menos de 1 milisegundo :-D
-	@Test(timeout=1)
+	// Debe mostrar todo en menos de 10 milisegundos :-D
+	@Test(timeout=10)
 	public void show(){
 		fizzBuzz.show();
 	}
